@@ -14,8 +14,8 @@ export default defineConfig({
     outDir: "xc-utlis", //输出文件名称
     lib: {
       entry: path.resolve(__dirname, "./src/utils/index.ts"), //指定组件编译入口文件
-      name: "xc-utlis",
-      fileName: "xc-utlis",
+      name: "index",
+      fileName: "index",
     }, //库编译模式配置
     rollupOptions: {
       // 确保外部化处理那些你不想打包进库的依赖
