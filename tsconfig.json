@@ -10,19 +10,16 @@
     "isolatedModules": true,
     "esModuleInterop": true,
     "removeComments": true, // 删除注释
-    "lib": [
-      "ESNext",
-      "DOM"
-    ],
+    "lib": ["ESNext", "DOM"],
     "skipLibCheck": true,
     "noEmit": true,
+    "declaration": true,
+    "declarationDir": "xc-utlis", // 声明文件输出的目录
     "baseUrl": "./",
     "paths": {
-      "@/*": [
-        "src/*"
-      ]
+      "@/*": ["src/*"]
     },
-    "types": ["element-plus/global","node"]
+    "types": ["node"]
   },
   "include": [
     "src/**/*.ts",

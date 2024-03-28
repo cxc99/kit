@@ -4,8 +4,9 @@
 </template>
 
 <script setup lang="ts">
-import { assistUtils, dispathUrl, toolKit } from "@/utils";
-// import { assistUtils, dispathUrl } from "xc-utlis/xc-utlis";
+// import { assistUtils, dispathUrl, toolKit } from "@/utils";
+// @ts-nocheck
+import { assistUtils, dispathUrl, toolKit } from "xc-utlis";
 
 // console.log(assistUtils);
 
